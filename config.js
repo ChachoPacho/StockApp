@@ -1,0 +1,36 @@
+//  COLORS
+const COLOR = {
+  CHARCOAL: "#373737",
+  SILK: "#DCD0C0",
+  PAPER: "#F4F4F4",
+  GOLD: "#C0B283"
+}
+
+//  STOCK VIEW METHODS
+const STOCK_METHOD = {
+  UPDATE: "UPDATE",
+  REMOVE: "REMOVE",
+}
+
+//  MANAGE VIEW METHODS
+const MANAGE_METHOD = {
+  ADD: "ADD",
+  REMOVE: "REMOVE",
+}
+
+//  PRODUCTS STORAGE FIELDS
+const PRODUCT_FIELD = {
+  NAME: "name",
+  PRICE: "price",
+}
+
+//  PRODUCT STORAGE NAME
+const PRODUCT_STORAGE = "@InStockProducts";
+
+export {
+  COLOR,
+  STOCK_METHOD,
+  MANAGE_METHOD,
+  PRODUCT_FIELD,
+  PRODUCT_STORAGE
+}
